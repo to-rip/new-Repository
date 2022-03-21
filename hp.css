@@ -1,0 +1,155 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url(..//3-21/abehiroshi.jpg);
+    background-position: 280px 0px;
+}
+.contents{
+    display: flex;
+    height: 100%;  
+   
+
+}
+.left_header {
+    width: 20%;
+    background-color:rgb(240, 240, 255);
+}
+.right{
+    width: 100%;
+}
+.right_contents {
+    display: flex;
+    width: 100%;
+   
+}
+.right_container{
+   margin-left: 350px;
+
+}
+
+
+
+
+/* header ここから*/
+.left_header{
+    position: fixed;
+    height: 100%;
+}
+.left_header ul{
+    margin-top: 60px;
+}
+.left_header ul li{
+    list-style-type:none;
+    margin-top: 30px;
+}
+.left_header ul li:before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    left: -5px;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    background-color: blue;
+    border-radius: 150%;
+}
+.left_header ul .top:before{
+    background-color: orange;
+}
+.left_header ul .drama::before{
+    background-color: aqua;
+}
+.left_header ul .movie:before{
+background-color:mediumaquamarine;
+}
+.left_header ul .stage:before{
+background-color: blue;
+}
+.left_header ul .photo:before{
+    background-color:red;
+}
+.left_header ul .book:before{
+    background-color: gray;
+}
+.left_header ul .manager::before{
+    background-color: purple;
+}
+/* header ここまで*/
+
+/* right_container ここから*/
+.right_container h1{
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+}
+.right_container li{
+    list-style-type: none;
+}
+/* right container ここまで*/
+
+/* image_abe ここから*/
+.image_abe{
+    width: 352px;
+   
+}
+.image_abe img{
+display: block;
+height: 414px;
+width: 350px;
+}
+.image_abe .profile{
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.image_abe .mail{
+    margin: 25px 0;
+}
+/* image_abe ここまで */
+
+/* infomationここから */
+.infomation{
+    width: 64%;
+   
+   padding-left: 10px;
+}
+.infomation .strongDrama{
+    display: inline-block;
+    padding-top: 15px;
+    
+}
+.infomation .strongMovie{
+    display: inline-block;
+    padding-top: 15px;
+}
+.infomation span{
+    color: red;
+}
+.infomation h4{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-weight: normal;
+}
+ 
+    
+.infomation ul{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    padding-left: 75px;
+   margin-top: 5px;
+   margin-bottom: 0;
+   
+}
+.infomation ul .space{
+    margin-top: 25px;
+}
+.infomation .attention{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* infomation ここまで*/
